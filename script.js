@@ -29,8 +29,8 @@ function Borrar() {
 function generateRules(color1, color2, color3, color4, color5) {
     document.getElementById("css-rules").value =
         ".website-background{ color:" + 'hsl(' + color1 + ',100%,50%)' + ";}\n" +
-        ".element-text{ color: " + 'hsl(' + color1 + ',100%,50%)' + ";}\n" +
-        ".element-border{ border-color: " + 'hsl(' + color1 + ',100%,50%)' + ";}\n" +
-        ".element-background{ background-color: " + 'hsl(' + color1 + ',100%,50%)' + ";}\n" +
-        ".header{ color: " + 'hsl(' + color1 + ',100%,50%)' + ";}";
+        ".element-text{ color: " + 'hsl(' + color2 + ',100%,50%)' + ";}\n" +
+        ".element-border{ border-color: " + 'hsl(' + color3 + ',100%,50%)' + ";}\n" +
+        ".element-background{ background-color: " + 'hsl(' + color4 + ',100%,50%)' + ";}\n" +
+        ".header{ color: " + 'hsl(' + color5 + ',100%,50%)' + ";}";
 };
